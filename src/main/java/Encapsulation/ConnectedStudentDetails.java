@@ -1,10 +1,10 @@
 package Encapsulation;
 
-public class ConnectedStudentDetails extends StudentDetails
+public class ConnectedStudentDetails 
 {
 	public static void main(String[] args)
 	{
-		ConnectedStudentDetails connect=new ConnectedStudentDetails();
+		StudentDetails connect=new StudentDetails();
 		connect.setName("Apsheya");
 		connect.setAge(22);
 		connect.setDepartment("B.Tech");
