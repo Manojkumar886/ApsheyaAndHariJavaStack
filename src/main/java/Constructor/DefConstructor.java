@@ -11,16 +11,16 @@ public class DefConstructor
 		System.out.println("Welcome to Def-Constructor");
 	}
 	
-	public void door()
-	{
-		System.out.println("Door");
-	}
+//	public void door()
+//	{
+//		System.out.println("Door");
+//	}
 
 	public static void main(String[] args) 
 	{
 	
 		DefConstructor def=new DefConstructor();//Object Creation
-		def.door();
+		//def.door();
 		
 	
 	}
