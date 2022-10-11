@@ -8,13 +8,16 @@ public class DemoStringClass {
 	{
 //		String a="Ashok";
 //		System.out.println(a);
-//		String obj=new String("Ashok");//create an object of string
+		String obj=new String("Ashok");//create an object of string
+		obj.concat("Manoj");
+		System.out.println(obj);
 //		char a1[]= {'A','S','H','O','K'};
 //		System.out.println(Arrays.toString(a1));
 //		String name=new String(a1);
 		String name="Java";//54
 		String name1="java is object oriended programming languages";
 		String name2="java";//54
+		
 		System.out.println(name);
 		System.out.println(name.charAt(2));
 		System.out.println(name.concat(name1));
