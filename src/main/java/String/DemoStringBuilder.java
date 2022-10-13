@@ -8,7 +8,8 @@ public class DemoStringBuilder {
 		obj.append("Apsheya");
 		System.out.println(obj);
 		obj.delete(1, 4);
-		System.out.println("Delted values  - "+obj);
+		System.out.println("Delted values-"+obj);//aeya
+		obj.insert(4,"-HAripriya");
+		System.out.println(obj);
 	}
-
 }
