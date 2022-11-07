@@ -2,7 +2,7 @@ package MultiThreading;
 
 public class PurposeOfThread 
 {
-	public static void main(String[] args) //Main one of the thread
+	public static void main(String[] args) throws InterruptedException //Main one of the thread
 	{
 		Book book=new Book();////note class is converted by thread
 		Note note=new Note();
@@ -10,6 +10,11 @@ public class PurposeOfThread
 		
 		Thread obj=new Thread(note);
 		obj.start();
+		
+		obj.join();//terminated..
+		System.out.println(obj.isAlive());
+		book.join();
+		
 		
 		System.out.println("Thank you");
 		
